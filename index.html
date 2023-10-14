@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>special design</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+    />
+  </head>
+  <body>
+    <!-- start setting box -->
+    <button class="top"><i class="fas fa-angle-double-up fa-2x"></i></button>
+    <div class="sidebar">
+      <div class="setting-icon">
+        <i class="fa fa-gear"></i>
+      </div>
+      <div class="setting-content">
+        <div class="setting-box">
+          <h4>colors</h4>
+          <ul>
+            <li data-color="#FF9800" class="active"></li>
+            <li data-color="#E91E63"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#03A9F4"></li>
+            <li data-color="#4CAF50"></li>
+          </ul>
+        </div>
+        <div class="setting-box">
+          <h4>random background</h4>
+          <div class="imgs-option">
+            <button class="yes active" data-option="yes">yes</button>
+            <button class="no" data-option="no">no</button>
+          </div>
+        </div>
+        <div class="setting-box">
+          <h4>show bullets</h4>
+          <div class="bullets-option">
+            <button class="yes active" data-option="yes">yes</button>
+            <button class="no" data-option="no">no</button>
+          </div>
+        </div>
+        <button class="reset">reset</button>
+      </div>
+    </div>
+    <!-- end setting box -->
+
+    <!-- start bullets -->
+    <ul class="bullets">
+      <div>
+        <li><a href="#about"></a></li>
+        <span>about</span>
+      </div>
+      <div>
+        <li><a href="#skills"></a></li>
+        <span>skills</span>
+      </div>
+      <div>
+        <li><a href="#gallery"></a></li>
+        <span>gallery</span>
+      </div>
+      <div>
+        <li><a href="#features"></a></li>
+        <span>features</span>
+      </div>
+      <div>
+        <li><a href="#timeline"></a></li>
+        <span>timeline</span>
+      </div>
+      <div>
+        <li><a href="#testimonials"></a></li>
+        <span>testimonials</span>
+      </div>
+      <div>
+        <li><a href="#contact"></a></li>
+        <span>contact</span>
+      </div>
+    </ul>
+    <!-- end bullets -->
+
+    <!-- start landing -->
+    <div class="landing">
+      <div class="layout">
+        <!-- start header -->
+        <div class="header">
+          <div class="container">
+            <h1>special design</h1>
+            <ul class="links">
+              <li><a href="#about">about</a></li>
+              <li><a href="#skills">skills</a></li>
+              <li><a href="#gallery">gallery</a></li>
+              <li><a href="#features">features</a></li>
+              <li><a href="#timeline">timeline</a></li>
+              <li><a href="#testimonials">testimonials</a></li>
+              <li><a href="#contact">contact</a></li>
+            </ul>
+            <i class="fas fa-bars links"></i>
+          </div>
+        </div>
+        <!-- end header -->
+        <div class="land-info">
+          <h2 class="text">we are <span>creative</span> agency</h2>
+          <p class="info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+            odit nihil ullam nesciunt quidem iste
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- end landing -->
+
+    <!-- start about -->
+    <div class="about" id="about">
+      <div class="container">
+        <div class="info">
+          <h3 class="special">about us</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            ipsum, tenetur dolores esse magni ratione distinctio! Quod iusto
+            neque fuga, maxime quos nostrum quibusdam dicta deserunt blanditiis
+            non voluptate id?
+          </p>
+        </div>
+        <img src="imgs/about-us.jpg" alt="about-us" class="about" />
+      </div>
+    </div>
+    <!-- end about -->
+
+    <!-- start our-skills -->
+    <div class="our-skills" id="skills">
+      <div class="container">
+        <h3 class="special">our skills</h3>
+        <div class="skills">
+          <div class="skill">
+            <div class="skill-name">
+              <h3>HTML</h3>
+            </div>
+            <div class="progress">
+              <span class="progress" data-width="90%"></span>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">
+              <h3>CSS</h3>
+            </div>
+            <div class="progress">
+              <span class="progress" data-width="70%"></span>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">
+              <h3>JavaScript</h3>
+            </div>
+            <div class="progress">
+              <span class="progress" data-width="60%"></span>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">
+              <h3>Python</h3>
+            </div>
+            <div class="progress">
+              <span class="progress" data-width="50%"></span>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">
+              <h3>PHP</h3>
+            </div>
+            <div class="progress">
+              <span class="progress" data-width="70%"></span>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">
+              <h3>MySQL</h3>
+            </div>
+            <div class="progress">
+              <span class="progress" data-width="90%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end our-skills -->
+
+    <!-- start our-gallery -->
+    <div class="our-gallery" id="gallery">
+      <div class="container">
+        <h3 class="special">our gallery</h3>
+        <div class="imgs-container">
+          <img src="imgs/01.jpg" alt="one" />
+          <img src="imgs/02.jpg" alt="two" />
+          <img src="imgs/03.jpg" alt="three" />
+          <img src="imgs/04.jpg" alt="four" />
+          <img src="imgs/05.jpg" alt="five" />
+          <img src="imgs/06.png" alt="six" />
+          <img src="imgs/07.jpg" alt="seven" />
+          <img src="imgs/08.jpg" alt="eight" />
+          <img src="imgs/09.jpg" alt="nine" />
+          <img src="imgs/10.jpg" alt="ten" />
+        </div>
+        <div class="layout">
+          <div class="img-clicked">
+            <h3></h3>
+            <div class="close">X</div>
+            <div class="img">
+              <img src="imgs/01.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end our-gallery -->
+
+    <!-- start our-features -->
+    <div class="our-features" id="features">
+      <div class="container">
+        <h3 class="special">our features</h3>
+        <div class="features-container">
+          <div class="feature">
+            <img src="imgs/programming.svg" alt="" class="feat" />
+            <h3 class="feat-title">Development</h3>
+            <p class="feat-info">
+              We are professional marketeers, we will do anything you imagine in
+              no time.
+            </p>
+          </div>
+          <div class="feature">
+            <img src="imgs/advertising.svg" alt="advertising" class="feat" />
+            <h3 class="feat-title">Marketing</h3>
+            <p class="feat-info">
+              We are professional marketeers, we will do anything you imagine in
+              no time.
+            </p>
+          </div>
+          <div class="feature">
+            <img src="imgs/hosting-icon.svg" alt="hosting" class="feat" />
+            <h3 class="feat-title">Hosting</h3>
+            <p class="feat-info">
+              We are professional marketeers, we will do anything you imagine in
+              no time.
+            </p>
+          </div>
+          <div class="feature">
+            <img src="imgs/mobile-app.svg" alt="mobile-app" class="feat" />
+            <h3 class="feat-title">Mobile Develope</h3>
+            <p class="feat-info">
+              We are professional marketeers, we will do anything you imagine in
+              no time.
+            </p>
+          </div>
+          <div class="feature">
+            <img
+              src="imgs/graphic-design.svg"
+              alt="graphic-design"
+              class="feat"
+            />
+            <h3 class="feat-title">Cloud and Servers</h3>
+            <p class="feat-info">
+              We are professional marketeers, we will do anything you imagine in
+              no time.
+            </p>
+          </div>
+          <div class="feature">
+            <img src="imgs/web-design.svg" alt="web-design" class="feat" />
+            <h3 class="feat-title">Seo</h3>
+            <p class="feat-info">
+              We are professional marketeers, we will do anything you imagine in
+              no time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end our-features -->
+
+    <!-- start time-line -->
+    <div class="time-line" id="timeline">
+      <div class="container">
+        <div class="events-container">
+          <div class="year">2018</div>
+          <div class="left">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              ex molestiae illo nisi quaerat veniam beatae aliquid eligendi.
+              Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime
+              nobis quam?
+            </p>
+          </div>
+          <div class="right">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              ex molestiae illo nisi quaerat veniam beatae aliquid eligendi.
+              Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime
+              nobis quam?
+            </p>
+          </div>
+          <div class="year">2016</div>
+          <div class="right">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              ex molestiae illo nisi quaerat veniam beatae aliquid eligendi.
+              Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime
+              nobis quam?
+            </p>
+          </div>
+          <div class="left">
+            <h3>Testing Heading</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              ex molestiae illo nisi quaerat veniam beatae aliquid eligendi.
+              Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime
+              nobis quam?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end time-line -->
+
+    <!-- start testimonials -->
+    <div class="testimonials" id="testimonials">
+      <div class="container">
+        <h3 class="testimonial special">testimonials</h3>
+        <div class="testimonials-container">
+          <div class="testimonial">
+            <p class="testimonial">
+              Iam very happy with the product its amazing and i recieve it very
+              fast and the price was amazing.
+            </p>
+            <div class="leader">
+              <img src="imgs/Icon_01.png" alt="" />
+              <div class="info">
+                <h3>Ahmed Mosaad</h3>
+                <p>CEO At Company</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p class="testimonial">
+              Iam very happy with the product its amazing and i recieve it very
+              fast and the price was amazing.
+            </p>
+            <div class="leader">
+              <img src="imgs/Icon_02.png" alt="" />
+              <div class="info">
+                <h3>Mohamed Ibrahim</h3>
+                <p>CEO At Company</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p class="testimonial">
+              Iam very happy with the product its amazing and i recieve it very
+              fast and the price was amazing.
+            </p>
+            <div class="leader">
+              <img src="imgs/Icon_03.png" alt="" />
+              <div class="info">
+                <h3>Sherief Ashraf</h3>
+                <p>CEO At Company</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end testimonials -->
+
+    <!-- start contact-us -->
+    <div class="contact-us" id="contact">
+      <div class="layout">
+        <div class="container">
+          <h3 class="special">contact us</h3>
+          <form action="">
+            <div class="info">
+              <input
+                type="text"
+                name="username"
+                required
+                placeholder="your name"
+              />
+              <input
+                type="tel"
+                name="phonenumber"
+                placeholder="your phone
+            "
+              />
+              <input
+                type="email"
+                name="mail"
+                required
+                placeholder="your email
+            "
+              />
+              <input
+                type="text"
+                name="subject"
+                required
+                placeholder="subject
+            "
+              />
+            </div>
+            <div class="message">
+              <textarea
+                name="message
+            "
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="your message"
+                required
+              ></textarea>
+              <input type="submit" value="send" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- end contact-us -->
+
+    <!-- start footer -->
+    <div class="footer">
+      <p>created by <span>mr.c</span></p>
+    </div>
+    <!-- end footer -->
+    <script src="js/master.js"></script>
+  </body>
+</html>
